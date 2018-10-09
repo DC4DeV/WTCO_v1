@@ -1,0 +1,39 @@
+@import src/styles/vars
+
+#missions-add
+  text-align: center
+  margin: 0 auto
+  padding: 0 5px
+
+  & h4
+    font-size: 1em
+    font-weight: 700
+
+  & .back-button
+    background-color: $nav-button-color
+    padding: 0.3em 1em
+    border-radius: 10px
+
+  & .reset-button
+    background-color: $nav-button-color
+    padding: 0.3em 1em
+    border-radius: 10px
+    border: none
+
+  & .validate-button
+    background-color: $valid-button-color
+    border: none
+    border-radius: 10px
+    margin: 1em 0 2em 0
+    padding: 0.7em 1.5em
+
+@media (min-width: $breakpoint-sm)
+  #missions-add
+
+@media (min-width: $breakpoint-md)
+  #missions-add
+    width: 600px
+
+    & h4
+      font-size: 1.2em
+      margin-bottom: 2rem

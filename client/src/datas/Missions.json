@@ -1,0 +1,30 @@
+{ 
+    "_id" : ObjectId("5b6c5390f3564b17ef907613"), 
+    "loading_place" : "GeneralElectric Company", 
+    "loading_adress" : "1 rue du truc", 
+    "loading_postcode" : "90000", 
+    "loading_city" : "Belfort", 
+    "loading_date" : "10/09/2017", 
+    "real_loading_date" : "10/09/2017", 
+    "loading_hour" : "12:34", 
+    "arrival_loading_hour" : "10:00", 
+    "departure_loading_hour" : "15:21", 
+    "km_loading" : "234967", 
+    "unloading_place" : "Peugeot", 
+    "unloading_adress" : "1 rue du machin", 
+    "unloading_postcode" : "25000", 
+    "unloading_city" : "Sochaux", 
+    "unloading_date" : "10/09/2017", 
+    "real_unloading_date" : "10/09/2017", 
+    "unloading_hour" : "19:44", 
+    "arrival_unloading_hour" : "19:00", 
+    "departure_unloading_hour" : "21:21", 
+    "km_unloading" : "235003", 
+    "comment_load" : "Café degeu", 
+    "comment_unload" : "peugeot c est de la M...", 
+    "drivers" : [
+        ObjectId("5b6b8e8bf3564b1aa1255d04")
+    ], 
+    "vehicle_id" : ObjectId("5b6b6e94f3564b1aa1255ca5"), 
+    "trailer_id" : ObjectId("5b6b6e94f3564b1aa1255ca5")
+}

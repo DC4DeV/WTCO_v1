@@ -1,0 +1,30 @@
+{ 
+    "_id" : ObjectId("5b6c506ff3564b17ef9075fb"), 
+    "type" : "Driving Licence", 
+    "name" : "Lorem", 
+    "url" : "/document/id.jpg"
+}
+{ 
+    "_id" : ObjectId("5b6c5093f3564b17ef9075fc"), 
+    "type" : "Identity Cards", 
+    "name" : "Lorem", 
+    "url" : "/document/id1.jpg"
+}
+{ 
+    "_id" : ObjectId("5b6c50a3f3564b17ef9075fd"), 
+    "type" : "Passport", 
+    "name" : "Lorem", 
+    "url" : "/document/id3.jpg"
+}
+{ 
+    "_id" : ObjectId("5b6c50c0f3564b17ef9075fe"), 
+    "type" : "Technical sheet", 
+    "name" : "Lorem", 
+    "url" : "/document/id23.jpg"
+}
+{ 
+    "_id" : ObjectId("5b6c50dcf3564b17ef9075ff"), 
+    "type" : "Registration Card", 
+    "name" : "Lorem", 
+    "url" : "/document/idwf.jpg"
+}

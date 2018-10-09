@@ -1,0 +1,15 @@
+node_modules/
+dist/
+
+backend/secret.js
+
+.vs/
+.vs-code/
+
+.DS_Store
+Thumbs.db
+
+yarn-error.log
+
+secret.js
+gandi.txt

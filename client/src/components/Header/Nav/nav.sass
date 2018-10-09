@@ -1,0 +1,69 @@
+@import src/styles/vars
+
+#nav
+  width: 100%
+  text-align: right
+  display: flex
+  flex-direction: row-reverse
+  position: relative
+
+  & button
+    padding: 0.9em
+    border-radius: 10px
+    background-color: $nav-button-color
+    font-size: 0.8em
+    font-weight: 700
+
+  & ul
+    justify-content: space-around
+    margin: 0
+    width: 100%
+    position: absolute
+    top: 3.7rem
+
+    & li
+      cursor: pointer
+      width: 100%
+      border-radius: 10px
+      border: 2px solid $header-bg-color
+      background-color: $nav-button-color
+      margin: 0
+      padding: 0
+      
+      & a
+        text-transform: uppercase
+        text-align: center
+        font-size: 0.7em
+        font-weight: 700
+        color: $text-color
+
+@media (min-width: $breakpoint-sm)
+  #nav
+    
+    & button
+      font-size: 1em
+      padding: 1rem
+
+    & ul
+      top: 5rem
+      
+      & li
+        padding: 0.3em 0
+        margin: 0.1rem 0
+        
+        & a
+          font-size: 0.9em
+
+@media (min-width: $breakpoint-md)
+  #nav
+    
+    & ul 
+      position: static
+      
+      & li
+        padding: 0.7em 0
+        
+        & a
+          font-size: 1em
+
+

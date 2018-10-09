@@ -1,0 +1,19 @@
+{
+  "name": "wtco",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "scripts": {
+    "start:server": "cd backend && nodemon server.js --exec babel-node --presets es2015,stage-0",
+    "start:client": "cd client && yarn start",
+    "start:dev": "concurrently \"yarn start:server\" \"yarn start:client\"",
+    "start:client_update": "cd client && yarn",
+    "start:server_update": "cd backend && yarn",
+    "start:update": "yarn && concurrently \"yarn start:client_update\" \"yarn start:server_update\" \"yarn\""
+  },
+  "dependencies": {
+    "compose": "^0.1.2",
+    "concurrently": "^3.6.1",
+    "nodemon": "^1.18.3"
+  }
+}

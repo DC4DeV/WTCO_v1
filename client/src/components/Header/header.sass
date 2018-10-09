@@ -1,0 +1,20 @@
+@import src/styles/vars
+
+#header
+  display: flex
+  justify-content: space-between
+  background-color: $header-bg-color
+  height: $header-height
+
+@media (min-width: $breakpoint-sm)
+  #header
+    height: $header-height-sm
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: 1
+
+@media (min-width: $breakpoint-md)
+  #header
+    height: $header-height-md

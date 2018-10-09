@@ -1,0 +1,104 @@
+@import src/styles/vars
+  
+#drivers
+  padding: 1rem 5px
+  min-height: calc(100vh - 132px)
+  
+  & h2
+    margin: 0.5em 0 0.8em 0
+    font-size: 1.2em
+    font-weight: 700
+    text-align: center
+
+  & h3
+    font-size: 1em
+    color: purple
+    text-decoration: underline
+
+  & .drivers-list
+
+    & li
+      padding: 0
+
+      & .btn
+        font-size: 0.9em
+        color: $text-color
+        background-color: transparent
+
+
+    & .add-driver-button
+      border-radius: 10px
+      background-color: $add-button-color
+      font-size: 1.5em
+      font-weight: 700
+      padding: 0 1.5em
+      margin: 1rem 0 2rem 0.5rem
+      border: none
+
+  .driver-buttons
+    margin: 1rem auto 1rem auto
+    max-width: 200px
+
+    & li
+      border-radius: 10px
+      background-color: $nav-button-color
+      margin: 0.5rem 0
+      padding: 0.5em 0.8em
+      text-align: center
+          
+      & .navlink
+        font-size: 0.9em
+        color: $text-color
+
+@media (min-width: $breakpoint-sm)
+  #drivers
+    margin-top: $header-height-sm
+    min-height: calc(100vh - 155px)
+   
+    & h2
+      margin: 0.8em 0 2em 0
+      font-size: 1.5em
+      font-weight: 700
+
+    & h3
+      margin: 0 0 1rem 5px 
+
+@media (min-width: $breakpoint-md)
+  #drivers
+    margin-top: $header-height-md
+    min-height: calc(100vh - 191px)
+
+    & h2
+      margin: 1em 0 3em 0
+      font-size: 1.8em
+      font-weight: 700
+
+    & .drivers-list
+      width: 20vw
+
+      & .add-driver-button
+        display: block
+        text-align: center
+        max-width: 6em
+        font-size: 1em
+        padding: 0.5em 1em
+        border-radius: 10px
+        border: none
+        
+    .driver-buttons
+      text-align: center
+      max-width: 100%
+      position: relative
+      bottom: 40px
+
+        
+      & li
+        display: inline-block
+        width: 6em
+        text-align: center
+        padding: 0.5em
+        margin: 0 1rem
+
+        & a
+        font-size: 1.1em
+

@@ -1,0 +1,37 @@
+@import src/styles/vars
+
+.mission-details
+  line-height: 1em
+  margin: 0.5em 0 1em 0
+  text-align: left
+
+  & p,
+  &-comments
+    font-size: 0.9em
+    line-height: 1.2em
+    margin-bottom: 0.5em
+
+.mission-remove-button,
+.mission-edit-button
+  text-align: center
+  display: block
+  border-radius: 10px
+  font-size: 0.8em
+  padding: 0.5em 1em
+  margin: 2rem auto 1rem auto
+  border: none
+  max-width: 7em
+
+.mission-edit-button
+  background-color: $edit-button-color
+  color: $text-color
+
+.mission-remove-button
+  background-color: $remove-button-color
+  color: white
+
+@media (min-width: $breakpoint-sm)
+  .mission-details
+
+    & p
+      font-size: 1em

@@ -1,0 +1,20 @@
+@import src/components/Social/Chat/chat
+
+#messages 
+  height: calc(100vh - 10rem)
+  overflow-y: auto
+  border-top: 1px solid $border-color
+
+.message
+  padding: 1.3rem
+  border-bottom: 1px solid $border-color
+  &-user 
+    text-transform: uppercase
+    font-size: .8rem
+    color: $color-name-user
+    font-weight: bold
+  &-content 
+    font-size: 1.2rem 
+  &--own
+    background-color: $bg-own-message
+    text-align: right

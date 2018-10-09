@@ -1,0 +1,23 @@
+@import src/styles/vars
+
+#drivers-add
+  text-align: center
+
+  & h4
+    font-size: 1em
+    font-weight: 700
+
+  & .validate-button
+    background-color: $valid-button-color
+    border: none
+    border-radius: 10px
+    margin: 1em 0 2em 0
+    padding: 0.7em 1.5em
+
+@media (min-width: $breakpoint-md)
+  #drivers-add
+    width: 600px
+
+    & h4
+      font-size: 1.2em
+      margin-bottom: 2rem

@@ -1,0 +1,16 @@
+{ 
+    "_id" : ObjectId("5b6c5525f3564b17ef90761e"), 
+    "title" : "Une aire de repos pas comme les autres", 
+    "summary" : "sleeping", 
+    "content" : "Consequat sunt eiusmod adipisicing nulla quis reprehenderit. Irure consectetur labore qui id proident fugiat aliquip. Cupidatat laborum amet esse non sit excepteur ea ipsum.", 
+    "picture" : "/picture/articles/id1.jpg", 
+    "map_id" : "### #### ### ###", 
+    "author_id" : ObjectId("5b6b8e8bf3564b1aa1255d04"), 
+    "comments" : [
+        {
+            "comment" : "Wouahhh", 
+            "author_id" : ObjectId("5b6b8e8bf3564b1aa1255d04"), 
+            "date" : "12/03/2018"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{ 
+    "_id" : ObjectId("5b6c5a2ef3564b17ef9076a3"), 
+    "language" : "fr_FR", 
+    "speaking" : "French"
+}
+{ 
+    "_id" : ObjectId("5b6c5a43f3564b17ef9076a4"), 
+    "language" : "en_EN", 
+    "speaking" : "English"
+}
+{ 
+    "_id" : ObjectId("5b6c5a69f3564b17ef9076a5"), 
+    "language" : "de_DE", 
+    "speaking" : "german"
+}
+{ 
+    "_id" : ObjectId("5b6c5a81f3564b17ef9076a6"), 
+    "language" : "us_US", 
+    "speaking" : "English"
+}
+{ 
+    "_id" : ObjectId("5b6c5a90f3564b17ef9076a7"), 
+    "language" : "pl_PL", 
+    "speaking" : "Polish"
+}
+{ 
+    "_id" : ObjectId("5b6c5ac3f3564b17ef9076a8"), 
+    "language" : "cz_CZ", 
+    "speaking" : "Czech"
+}

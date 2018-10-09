@@ -1,0 +1,63 @@
+{ 
+    "last_name" : "Damien", 
+    "first_name" : "Canovas", 
+    "nickname" : "Rick_Hard", 
+    "picture" : "/pictures/driver/rick.jpg", 
+    "birthdate" : "27/11/1984", 
+    "sexe" : "Male", 
+    "adress" : "2 rue du slip, 90321 Quelquepart", 
+    "licence" : "1 232 45 66767 887", 
+    "licence_validity" : "12/08/2030", 
+    "medical_visits" : [
+        {
+            "date" : "12/03/2018", 
+            "place" : "Belfort", 
+            "documents" : [
+
+            ]
+        }
+    ], 
+    "fcos" : "", 
+    "formations" : [
+        {
+            "date" : "12/03/2018", 
+            "type" : "Fimo", 
+            "place" : "Belfort", 
+            "documents" : [
+
+            ]
+        }
+    ], 
+    "nss" : "12/03/2018", 
+    "mail" : "damien.canovas90@gmail.fr", 
+    "password" : "Qxc$f®ðß", 
+    "phone" : "+33 6 34 56 78 90", 
+    "nationality" : "French", 
+    "compagny_id" : "Truck Angel", 
+    "languages" : [
+        "fr_FR"
+    ], 
+    "documents" : [
+
+    ], 
+    "current_vehicles" : [
+        "Porsche Cayman"
+    ], 
+    "vehicles_history" : [
+        {
+            "date" : "", 
+            "vehicles" : [
+
+            ]
+        }
+    ], 
+    "missions" : [
+
+    ], 
+    "articles_fav" : [
+
+    ], 
+    "friends" : [
+
+    ]
+}

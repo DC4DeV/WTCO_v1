@@ -1,0 +1,120 @@
+{ 
+    "_id" : ObjectId("5b6b6e94f3564b1aa1255ca5"), 
+    "type" : "Truck", 
+    "plate" : "qw-343-ew", 
+    "kilometres" : "204000", 
+    "brand" : "Scania", 
+    "model" : "gros", 
+    "color" : "blue", 
+    "picture" : "/picture/vehicles/pict_actros_qw-343-ew.jpg", 
+    "maintenances_history" : [
+        {
+            "date" : "12-12-2003", 
+            "place" : "Belfort", 
+            "comment" : "this vehicle is Kaput"
+        }
+    ], 
+    "last_maintenance" : "", 
+    "controle_date" : "", 
+    "documents" : [
+        {
+            "registration_certificate" : "/documents/registration_certificate/reg_actros_qw-343-ew.jpg"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5b6b6ea2f3564b1aa1255ca9"), 
+    "type" : "van", 
+    "plate" : "po-334-ds", 
+    "kilometres" : "31000", 
+    "brand" : "daf", 
+    "model" : "432jk", 
+    "color" : "red", 
+    "picture" : "/picture/vehicles/pict_actros_qw-343-ew.jpg", 
+    "maintenances_history" : [
+        {
+            "date" : "12-12-2003", 
+            "place" : "Belfort", 
+            "comment" : "this vehicle is Kaput"
+        }
+    ], 
+    "last_maintenance" : "", 
+    "controle_date" : "", 
+    "documents" : [
+        {
+            "registration_certificate" : "/documents/registration_certificate/reg_actros_qw-343-ew.jpg"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5b6b6ec3f3564b1aa1255caa"), 
+    "type" : "trailer", 
+    "plate" : "sw-090-cv", 
+    "kilometres" : "6701", 
+    "brand" : "iveco", 
+    "model" : "rapid", 
+    "color" : "yellow", 
+    "picture" : "/picture/vehicles/pict_actros_qw-343-ew.jpg", 
+    "maintenances_history" : [
+        {
+            "date" : "12-12-2003", 
+            "place" : "Belfort", 
+            "comment" : "this vehicle is Kaput"
+        }
+    ], 
+    "last_maintenance" : "", 
+    "controle_date" : "", 
+    "documents" : [
+        {
+            "registration_certificate" : "/documents/registration_certificate/reg_actros_qw-343-ew.jpg"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5b6b6ecaf3564b1aa1255cab"), 
+    "type" : "truck", 
+    "plate" : "io-333-pl", 
+    "kilometres" : "210678", 
+    "brand" : "Man", 
+    "model" : "Bat", 
+    "color" : "pink", 
+    "picture" : "/picture/vehicles/pict_actros_qw-343-ew.jpg", 
+    "maintenances_history" : [
+        {
+            "date" : "12-12-2003", 
+            "place" : "Belfort", 
+            "comment" : "this vehicle is Kaput"
+        }
+    ], 
+    "last_maintenance" : "", 
+    "controle_date" : "", 
+    "documents" : [
+        {
+            "registration_certificate" : "/documents/registration_certificate/reg_actros_qw-343-ew.jpg"
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5b6b7041f3564b1aa1255cca"), 
+    "type" : "van", 
+    "plate" : "za-321-lk", 
+    "kilometres" : "82134", 
+    "brand" : "ford", 
+    "model" : "transit", 
+    "color" : "green", 
+    "picture" : "/picture/vehicles/pict_actros_qw-343-ew.jpg", 
+    "maintenances_history" : [
+        {
+            "date" : "12-12-2003", 
+            "place" : "Belfort", 
+            "comment" : "this vehicle is Kaput"
+        }
+    ], 
+    "last_maintenance" : "", 
+    "controle_date" : "", 
+    "documents" : [
+        {
+            "registration_certificate" : "/documents/registration_certificate/reg_actros_qw-343-ew.jpg"
+        }
+    ]
+}

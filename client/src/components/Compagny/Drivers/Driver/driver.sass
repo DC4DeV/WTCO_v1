@@ -1,0 +1,58 @@
+@import src/styles/vars
+
+.driver
+  line-height: 0.9em
+  margin: 0.5em 0 1em 0
+  text-align: center
+  height: 57rem
+
+  & p
+    margin-bottom: 0.4em
+    font-size: 0.9em
+
+  &-remove-button,
+  &-edit-button
+    display: block
+    color: white
+    border-radius: 10px
+    font-size: 0.8em
+    padding: 0.5em 1em
+    margin: 2rem auto 1rem auto
+    border: none
+    max-width: 7em
+
+  &-edit-button
+    background-color: $edit-button-color
+    color: $text-color
+    margin-top: 1rem
+
+  &-remove-button
+    background-color: $remove-button-color
+
+@media (min-width: $breakpoint-sm)
+  .driver
+    line-height: 1em
+    margin: 0.5em 0 1em 0
+    height: 35rem
+
+    & p
+      font-size: 1em
+
+@media (min-width: $breakpoint-md)
+  .driver
+    width: 37.5rem
+    margin: 0 auto
+
+    &-remove-button,
+    &-edit-button
+      font-size: 1em
+      padding: 0.5em 1em
+
+    &-remove-button
+      margin: 2rem 0 1rem auto
+
+    &-edit-button
+      margin-top: 2rem
+
+
+
